@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAEEE611C716B12008666F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAEEE601C716B12008666F5 /* main.m */; };
+		BAAEEE641C716B12008666F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAEEE631C716B12008666F5 /* AppDelegate.m */; };
+		BAAEEE671C716B12008666F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAEEE661C716B12008666F5 /* ViewController.m */; };
+		BAAEEE6A1C716B12008666F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAEEE681C716B12008666F5 /* Main.storyboard */; };
+		BAAEEE6C1C716B12008666F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAEEE6B1C716B12008666F5 /* Assets.xcassets */; };
+		BAAEEE6F1C716B12008666F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAEEE6D1C716B12008666F5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAAEEE5C1C716B12008666F5 /* login UI with animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login UI with animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAEEE601C716B12008666F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAAEEE621C716B12008666F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAAEEE631C716B12008666F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAAEEE651C716B12008666F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAAEEE661C716B12008666F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAAEEE691C716B12008666F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAAEEE6B1C716B12008666F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAAEEE6E1C716B12008666F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAAEEE701C716B12008666F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAEEE591C716B12008666F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAEEE531C716B12008666F5 = {
+			isa = PBXGroup;
+			children = (
+				BAAEEE5E1C716B12008666F5 /* login UI with animation */,
+				BAAEEE5D1C716B12008666F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAEEE5D1C716B12008666F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAEEE5C1C716B12008666F5 /* login UI with animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAEEE5E1C716B12008666F5 /* login UI with animation */ = {
+			isa = PBXGroup;
+			children = (
+				BAAEEE621C716B12008666F5 /* AppDelegate.h */,
+				BAAEEE631C716B12008666F5 /* AppDelegate.m */,
+				BAAEEE651C716B12008666F5 /* ViewController.h */,
+				BAAEEE661C716B12008666F5 /* ViewController.m */,
+				BAAEEE681C716B12008666F5 /* Main.storyboard */,
+				BAAEEE6B1C716B12008666F5 /* Assets.xcassets */,
+				BAAEEE6D1C716B12008666F5 /* LaunchScreen.storyboard */,
+				BAAEEE701C716B12008666F5 /* Info.plist */,
+				BAAEEE5F1C716B12008666F5 /* Supporting Files */,
+			);
+			path = "login UI with animation";
+			sourceTree = "<group>";
+		};
+		BAAEEE5F1C716B12008666F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAEEE601C716B12008666F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAEEE5B1C716B12008666F5 /* login UI with animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAEEE731C716B12008666F5 /* Build configuration list for PBXNativeTarget "login UI with animation" */;
+			buildPhases = (
+				BAAEEE581C716B12008666F5 /* Sources */,
+				BAAEEE591C716B12008666F5 /* Frameworks */,
+				BAAEEE5A1C716B12008666F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "login UI with animation";
+			productName = "login UI with animation";
+			productReference = BAAEEE5C1C716B12008666F5 /* login UI with animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAEEE541C716B12008666F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "郑洪锋";
+				TargetAttributes = {
+					BAAEEE5B1C716B12008666F5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BAAEEE571C716B12008666F5 /* Build configuration list for PBXProject "login UI with animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAAEEE531C716B12008666F5;
+			productRefGroup = BAAEEE5D1C716B12008666F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAEEE5B1C716B12008666F5 /* login UI with animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAEEE5A1C716B12008666F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAEEE6F1C716B12008666F5 /* LaunchScreen.storyboard in Resources */,
+				BAAEEE6C1C716B12008666F5 /* Assets.xcassets in Resources */,
+				BAAEEE6A1C716B12008666F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAEEE581C716B12008666F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAEEE671C716B12008666F5 /* ViewController.m in Sources */,
+				BAAEEE641C716B12008666F5 /* AppDelegate.m in Sources */,
+				BAAEEE611C716B12008666F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAAEEE681C716B12008666F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAEEE691C716B12008666F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAEEE6D1C716B12008666F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAEEE6E1C716B12008666F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAEEE711C716B12008666F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAAEEE721C716B12008666F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAEEE741C716B12008666F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "login UI with animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.login-UI-with-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAAEEE751C716B12008666F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "login UI with animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.login-UI-with-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAEEE571C716B12008666F5 /* Build configuration list for PBXProject "login UI with animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAEEE711C716B12008666F5 /* Debug */,
+				BAAEEE721C716B12008666F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAEEE731C716B12008666F5 /* Build configuration list for PBXNativeTarget "login UI with animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAEEE741C716B12008666F5 /* Debug */,
+				BAAEEE751C716B12008666F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAEEE541C716B12008666F5 /* Project object */;
+}
