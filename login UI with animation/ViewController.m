@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // ddd
     /**
      self.userName.center.x += offset;    //userName进入
      self.password.center.x += offset;    //password进入
